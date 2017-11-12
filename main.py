@@ -1,6 +1,6 @@
 import time
 
-from theorems import fibonacci
+from sequences import fibonacci
 
 
 def main():
