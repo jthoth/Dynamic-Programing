@@ -8,11 +8,15 @@ def main():
     fn = 30
 
     t = time.time()
-    print(fib.common(fn))
+    print(fib.recursive(fn))
     print(time.time() - t)
 
     t = time.time()
-    print(fib.dynamic_memory(fn))
+    print(fib.memoize(fn))
+    print(time.time() - t)
+
+    t = time.time()
+    print(fib.buttom_up(fn))
     print(time.time() - t)
 
 if __name__ == '__main__':
