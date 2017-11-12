@@ -5,7 +5,7 @@ from sequences import fibonacci
 
 def main():
     fib = fibonacci.Finbonacci()
-    fn = 30
+    fn = 20
 
     t = time.time()
     print(fib.recursive(fn))
@@ -18,6 +18,7 @@ def main():
     t = time.time()
     print(fib.buttom_up(fn))
     print(time.time() - t)
+
 
 if __name__ == '__main__':
     main()
