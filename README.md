@@ -1,5 +1,3 @@
-# dp
-Learning Dynamic Programing.
+# Learning Dynamic Programing.
 
-
-Getting of MIT Course
+Getting of MIT Course: https://youtu.be/OQ5jsbhAv_M
